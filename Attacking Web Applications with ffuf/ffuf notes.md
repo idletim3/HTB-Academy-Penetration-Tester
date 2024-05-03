@@ -30,6 +30,7 @@ Increasing the recusion depth significantly increases the time required to compl
 
 ## Parameter Fuzzing
 GET: `ffuf -w [wordlist]:FUZZ -u http://[IP]:[PORT]/[directory]/[filename].[extension]?FUZZ=key`
+
 POST: `ffuf -w [wordlist]:FUZZ - -u http://[IP]:[PORT]/[directory]/[filename].[extension] -X POST -d 'FUZZ=key' -H 'Content-Type: [content type]'`
 
 A full list of content types can be found at: https://www.iana.org/assignments/media-types/media-types.xhtml
