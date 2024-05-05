@@ -78,4 +78,15 @@ The HTTP Proxy-Authorization request header contains the credentials to authenti
 
 Default passwords are easy to remember and (in theory) should be single use only. These often remain in place due to human errors (laziness), so they're always worth a check before exploring other avenues.
 
-# Question 1: Using the technique you learned in this section, try attacking the IP shown above. What are the credentials used?
+## Supported Hydra Modules
+To get the current list: `hydra -h | grep "Supported services" | tr ":" "\n" | tr " " "\n" | column -e`
+
+![image](https://github.com/idletim3/htb-academy-penetration-tester/assets/128943623/08f18e45-1ec3-45d5-b3f3-8282f8b339ed)
+
+When attempting to bruteforce a login page, pay attention to the URL when entering randomly chosen credentials (i.e. admin:admin). A GET request will push the credentials into the URL while a POST will not. Whenever login forms are encountered, pay attention to the valid/invalid login/password messages and consider potential false positives/negatives. A good point is made in the module materials regarding what should and what should not be present following a login attempt.
+
+## Tools for username generation
+- [cupp](https://github.com/Mebus/cupp)
+- Custom rules in [hashcat](https://hashcat.net/wiki/doku.php?id=rule_based_attack)/[john](https://github.com/openwall/john/blob/bleeding-jumbo/doc/RULES)
+- [namebuster](https://github.com/benbusby/namebuster)
+- [username-anarchy](https://github.com/urbanadventurer/username-anarchy)
