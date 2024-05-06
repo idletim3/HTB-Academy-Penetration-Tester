@@ -16,13 +16,21 @@
 
 ## Recommended Material(s)
 [Information Security Foundations](https://academy.hackthebox.com/dashboard)
+
 [Learning Process](https://academy.hackthebox.com/course/preview/learning-process)
+
 [Linux Fundamentals](https://academy.hackthebox.com/course/preview/linux-fundamentals)
+
 [Windows Fundamentals](https://academy.hackthebox.com/course/preview/windows-fundamentals)
+
 [Introduction to Networking](https://academy.hackthebox.com/course/preview/introduction-to-networking)
+
 [Introduction to Web Applications](https://academy.hackthebox.com/course/preview/introduction-to-web-applications)
+
 [Web Requests](https://academy.hackthebox.com/course/preview/web-requests)
+
 [JavaScript Deobfuscation](https://academy.hackthebox.com/course/preview/javascript-deobfuscation)
+
 [Introduction to Active Directory](https://academy.hackthebox.com/course/preview/introduction-to-active-directory)
 
 The above is not mandatory but recommended if you have to background in IT whatsoever and will help later on.
