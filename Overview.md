@@ -1,4 +1,4 @@
-# Penetration Testing Process
+# A brief summary of the course 
 
 ## Bug Bounty Programs
 - [HackerOne](https://hackerone.com/directory/programs)
