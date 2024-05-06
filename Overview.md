@@ -33,7 +33,7 @@
 
 [Introduction to Active Directory](https://academy.hackthebox.com/course/preview/introduction-to-active-directory)
 
-The above is not mandatory but recommended if you have to background in IT whatsoever and will help later on.
+The above is not mandatory but recommended if you have no background in IT.
 
 ## Other Useful Materials
 [Introduction to Python3](https://academy.hackthebox.com/course/preview/introduction-to-python-3)
