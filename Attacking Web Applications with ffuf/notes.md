@@ -6,7 +6,8 @@ ffuf -w [wordlist]:FUZZ -u http://FUZZ.[IP]/
 ```
 ## Virtual Host Fuzzing
 ```
-ffuf -w [wordlist]:FUZZ -u http://FUZZ.[IP]:[PORT]/
+ffuf -w [wordlist]:FUZZ -u http://FUZZ.[IP]:[PORT]/ -H 'Host: FUZZ.[address]'
+Example: ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://academy.htb:PORT/ -H 'Host: FUZZ.academy.htb'
 ```
 The key difference between a virtual host and a sub-domain is that the virtual host is served on the same server (IP). A single IP could serve multiple websites. Remember to add the IP to `/etc/hosts`, and add the HTTP headers option `(-H 'Host: ...')` to the command.
 ## Directory Fuzzing
