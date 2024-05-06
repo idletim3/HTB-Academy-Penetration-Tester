@@ -4,12 +4,6 @@ A penetration test can be broken into eight unique parts.
 
 ## Pre-Engagement
 Creation of all the necessary documents, assessment objectives and clarficiation of any issues and/or questions.
-Cosinderations:
-- Scoping questionnaire
-- Pre-engagement meeting
-- Kick-off meeting
-- NDA (unilateral, bilateral and multilateral)
-
   
 ## Information Gathering
 Understanding the technologies in use and how they interact with each other.
