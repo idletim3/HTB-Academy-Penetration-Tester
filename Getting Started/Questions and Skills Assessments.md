@@ -79,3 +79,15 @@ Using metasploit to obtain the contents of /etc/passwd, /var/www/html/wp-config.
 
 ![image](https://github.com/idletim3/htb-academy-penetration-tester/assets/128943623/93690f11-7e21-46e1-b360-d4c1920a9463)
 ![image](https://github.com/idletim3/htb-academy-penetration-tester/assets/128943623/03d81ce5-8d94-473a-9a28-4e794f796a4e)
+
+# Types of Shells
+
+# Privilege Escalation
+
+# Transfering Files
+
+# Nibbles
+
+# Problem Solving
+
+# Knowledge Check
