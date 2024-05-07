@@ -24,7 +24,7 @@ nmap -sC -sV -A academy.htb
 
 ## Question 2: Perform an Nmap scan of the target and identify the non-default port that the telnet service is running on. 
 
-Reference the screenshot above.
+See above.
 
 ## Question 3: List the SMB shares available on the target host. Connect to the available share as the bob user. Once connected, access the folder called 'flag' and submit the contents of the flag.txt file. 
 
